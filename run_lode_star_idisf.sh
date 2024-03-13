@@ -1,0 +1,1 @@
+python3 ./scripts/LodeSTAR/idisf_lode_star.py
