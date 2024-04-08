@@ -2,3 +2,6 @@
 /checkpoints
 */__pycache__
 /MiniDataset
+/data
+/out
+/ls_veenv
