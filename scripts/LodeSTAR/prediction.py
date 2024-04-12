@@ -12,6 +12,7 @@ def get_activation_image(weights):
     return activation_image
 
 def crop_image(gt, crop_size):
+    '''crops the image in the defined size'''
     left = 0
     top = 0
     right =  gt.size[0] - crop_size
