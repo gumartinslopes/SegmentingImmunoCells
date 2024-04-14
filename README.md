@@ -20,5 +20,4 @@ named ``checkpoints``, all of the model weights should be placed on this folder.
 ```py
 mkdir ./checkpoints
 ```
-Download the checkpoints [here](https://drive.google.com/file/d/1-1h5nHJnpqADBTq11nf0-PwYAUDQVltW/view) and place them in the checkpoints folder.
-## Running 
+Download the checkpoints [here](https://drive.google.com/file/d/1-1h5nHJnpqADBTq11nf0-PwYAUDQVltW/view) and place them in the checkpoints folder. 
