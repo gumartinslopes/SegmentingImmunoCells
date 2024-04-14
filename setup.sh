@@ -5,3 +5,7 @@ FILE_URL="https://drive.google.com/uc?export=download&id=$FILE_ID"
 mkdir ./checkpoints
 # Downloading the model weights
 wget -O "./checkpoints/best.h5" $FILE_URL
+# Setting up iDISF
+cd ./iDISF
+make
+cd ..

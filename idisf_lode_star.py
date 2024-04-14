@@ -1,13 +1,13 @@
 import sys
 import os
 import numpy as np
-sys.path.append("../../iDISF/python3/");
+sys.path.append("../iDISF/python3/");
 
 from idisf import iDISF_scribbles
 from PIL import Image
-from constants import *
-from simplification import get_ultimate_erosion, get_markers
-from prediction import load_model, get_prediction
+from scripts.LodeSTAR.constants import *
+from scripts.LodeSTAR.simplification import get_ultimate_erosion, get_markers
+from scripts.LodeSTAR.prediction import load_model, get_prediction
 
 def create_folder(folder_path):
     """ Creates a folder if does not exists"""

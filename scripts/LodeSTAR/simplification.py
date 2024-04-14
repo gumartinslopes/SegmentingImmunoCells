@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 
-from __future__ import print_function
+#from __future__ import print_function
 from scipy import ndimage
 from skimage import measure
 from skimage.morphology import erosion, disk, dilation, erosion, reconstruction
