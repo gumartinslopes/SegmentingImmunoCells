@@ -1,6 +1,6 @@
 */.vscode
 /checkpoints
-*/__pycache__
+*__pycache__
 /MiniDataset
 /data
 /out
