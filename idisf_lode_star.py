@@ -1,8 +1,7 @@
 import sys
 import os
 import numpy as np
-sys.path.append("../iDISF/python3/");
-
+sys.path.append("./iDISF/python3/");
 from idisf import iDISF_scribbles
 from PIL import Image
 from scripts.LodeSTAR.constants import *
