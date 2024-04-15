@@ -8,4 +8,7 @@ wget -O "./checkpoints/best.h5" $FILE_URL
 # Setting up iDISF
 cd ./iDISF
 make
+pip3 install pipenv
+pipenv install
+cd python3/; pipenv run python3 -m pip install . ; cd ..
 cd ..
